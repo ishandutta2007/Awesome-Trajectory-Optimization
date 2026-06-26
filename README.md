@@ -10,7 +10,10 @@ Trajectory Optimization is a foundational computational framework in artificial 
 The development of trajectory calculation has transitioned from classical numerical physics solvers to data-driven neural policy guides and multi-horizon generative transformer models.
 
 ```mermaid
-[Classical Boundary Solvers] ----> [Model Predictive Control (MPC)] ----> [Modern Neural & Generative Trajectories](Shooting / Collocation Math)        (Real-Time Receding Horizons)          (Decision Transformers / Diffuser Networks)
+flowchart LR
+    A["Classical Boundary Solvers<br/>(Shooting / Collocation Math)"]
+    --> B["Model Predictive Control (MPC)<br/>(Real-Time Receding Horizons)"]
+    --> C["Modern Neural & Generative Trajectories<br/>(Decision Transformers / Diffuser Networks)"]
 ```
 
 *   **The Classical Numerical Solvers Era (Pre-Deep Learning)**
