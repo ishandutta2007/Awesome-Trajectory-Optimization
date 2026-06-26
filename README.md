@@ -78,3 +78,16 @@ Executing trajectory calculations across real-world physical boundaries and low-
 | [**Spatio-Temporal Control for Bipedal Humanoid Robotics**](details/humanoid_robotics.md) | 2016 | [Kuindersma et al. (2016)](https://doi.org/10.1007/s10514-015-9479-3) | **Application:** Drives real-time locomotion stacks for advanced bipedal and quadrupedal robots. Trajectory engines map out target center-of-mass vectors and foot placement coordinate timelines, calculating precise joint torque adjustments to help the machine cross uneven, volatile debris fields stably. |
 | [**Next-Generation Rocketry & Aerospace Guidance Loops**](details/aerospace_guidance.md) | 2007 | [Açıkmeşe & Ploen (2007)](https://arc.aiaa.org/doi/10.2514/1.27350) | **Application:** Directs vertical landing maneuvers for reusable orbital booster rockets or orbital station-keeping systems. Real-time trajectory optimization solvers continuously evaluate shifting wind shears, fuel weight decay rates, and telemetry variations, updating aerodynamic grid-fin parameters dynamically to achieve pinpoint landing accuracy. |
 
+---
+
+## 📈 Star History
+
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Trajectory-Optimization&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Trajectory-Optimization&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Trajectory-Optimization&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Trajectory-Optimization&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
