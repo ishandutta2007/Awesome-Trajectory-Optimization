@@ -1,11 +1,22 @@
-# Awesome-Trajectory-Optimization
-## Trajectory Optimization in AI: Evolution, Variants, Types, & Applications
+# Awesome Trajectory Optimization 🚀
 
-Trajectory Optimization is a foundational computational framework in artificial intelligence, robotics, and reinforcement learning (RL). It focuses on finding a sequence of control inputs and system states (a trajectory) that minimizes a specified cost function (such as energy consumption or travel time) while satisfying physical, environmental, and system constraints. In AI, trajectory optimization bridges the gap between high-level behavioral planning and low-level physical execution, transforming abstract strategic goals into precise, safe, and dynamically feasible physical trajectories.
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Trajectory Optimization Banner" width="100%">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-Trajectory-Optimization/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Trajectory-Optimization?style=flat-square" alt="Stars"/></a><a href="https://github.com/ishandutta2007/Awesome-Trajectory-Optimization/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Trajectory-Optimization?style=flat-square" alt="Forks"/></a><a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-## 1. The Chronological Evolution
+## 🌟 Trajectory Optimization in AI: Evolution, Variants, Types, & Applications
+
+**Trajectory Optimization** is a foundational computational framework in artificial intelligence, robotics, and reinforcement learning (RL). It focuses on finding a sequence of control inputs and system states (a trajectory) that minimizes a specified cost function (such as energy consumption or travel time) while satisfying physical, environmental, and system constraints. In AI, trajectory optimization bridges the gap between high-level behavioral planning and low-level physical execution, transforming abstract strategic goals into precise, safe, and dynamically feasible physical trajectories.
+
+---
+
+## 📅 1. The Chronological Evolution
 
 The development of trajectory calculation has transitioned from classical numerical physics solvers to data-driven neural policy guides and multi-horizon generative transformer models.
 
@@ -24,7 +35,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Transcription Variants
+## ⚙️ 2. Core Functional & Transcription Variants
 
 Trajectory optimization frameworks are strictly categorized based on how the underlying mathematical state and control dimensions are discretized and handled across time intervals.
 
@@ -36,7 +47,7 @@ Trajectory optimization frameworks are strictly categorized based on how the und
 
 ---
 
-## 3. Deep Learning & Reinforcement Learning Integrations
+## 🧠 3. Deep Learning & Reinforcement Learning Integrations
 
 Modern artificial intelligence pipelines utilize distinct architectural layers to accelerate trajectory generation or guide neural exploration.
 
@@ -48,7 +59,7 @@ Modern artificial intelligence pipelines utilize distinct architectural layers t
 
 ---
 
-## 4. Production Engineering Challenges & Mitigations
+## 🛡️ 4. Production Engineering Challenges & Mitigations
 
 Executing trajectory calculations across real-world physical boundaries and low-latency control loops introduces critical computational and safety constraints.
 
@@ -59,7 +70,7 @@ Executing trajectory calculations across real-world physical boundaries and low-
 
 ---
 
-## 5. Frontier Real-World AI Applications
+## 🌐 5. Frontier Real-World AI Applications
 
 | Application | Year | Paper | Description |
 | :--- | :--- | :--- | :--- |

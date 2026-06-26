@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="100%" stop-color="#070a14" />
+    </linearGradient>
+
+    <!-- Path Glow Effect -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Line Gradients -->
+    <linearGradient id="cyanPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+    
+    <linearGradient id="pinkPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f857a6" />
+      <stop offset="100%" stop-color="#ff5858" />
+    </linearGradient>
+    
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#f857a6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="300" rx="15" fill="url(#bgGrad)" />
+
+  <!-- Decorative Grid Overlay -->
+  <g stroke="#ffffff" stroke-opacity="0.03" stroke-width="1">
+    <path d="M 0,50 L 800,50 M 0,100 L 800,100 M 0,150 L 800,150 M 0,200 L 800,200 M 0,250 L 800,250" />
+    <path d="M 100,0 L 100,300 M 200,0 L 200,300 M 300,0 L 300,300 M 400,0 L 400,300 M 500,0 L 500,300 M 600,0 L 600,300 M 700,0 L 700,300" />
+  </g>
+
+  <!-- Stylized Trajectory Curves (The Optimization Concept) -->
+  <!-- Sub-optimal Trajectory (Red/Pink, erratic) -->
+  <path d="M 50,220 C 150,80 200,280 320,120 C 400,50 480,260 620,180" fill="none" stroke="url(#pinkPurple)" stroke-width="2" stroke-dasharray="4 4" opacity="0.4" />
+  
+  <!-- Optimal Trajectory (Cyan/Blue, smooth & glowing) -->
+  <path d="M 50,220 C 180,140 280,180 380,100 C 480,20 600,150 750,90" fill="none" stroke="url(#cyanPurple)" stroke-width="4" filter="url(#glow)" stroke-linecap="round" />
+
+  <!-- Waypoints / State Nodes -->
+  <circle cx="50" cy="220" r="6" fill="#00f2fe" filter="url(#glow)" />
+  <circle cx="210" cy="165" r="4" fill="#00f2fe" opacity="0.8" />
+  <circle cx="380" cy="100" r="5" fill="#4facfe" filter="url(#glow)" />
+  <circle cx="550" cy="95" r="4" fill="#f857a6" opacity="0.8" />
+  <circle cx="750" cy="90" r="7" fill="#f857a6" filter="url(#glow)" />
+
+  <!-- Text / Title -->
+  <text x="400" y="160" text-anchor="middle" font-family="'Outfit', 'Inter', system-ui, sans-serif" font-size="34" font-weight="900" letter-spacing="4" fill="url(#textGrad)" filter="url(#glow)">
+    AWESOME TRAJECTORY OPTIMIZATION
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="400" y="195" text-anchor="middle" font-family="'Inter', system-ui, sans-serif" font-size="13" font-weight="500" letter-spacing="1.5" fill="#a0aec0" opacity="0.9">
+    Evolution, Variants, Algorithms &amp; Applications in AI &amp; Robotics
+  </text>
+
+  <!-- Interactive/Modern Accents -->
+  <rect x="360" y="225" width="80" height="2" rx="1" fill="url(#textGrad)" />
+</svg>
